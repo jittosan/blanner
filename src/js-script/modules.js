@@ -1,3 +1,6 @@
+const fs = require("fs");
+const csv = require('csvtojson');
+const { Parser } = require('json2csv');
 import {Module} from './module.js';
 
 class ModuleContainer {
@@ -46,8 +49,17 @@ class ModuleContainer {
 
 //database
 class ModPool extends ModuleContainer {
-    constructor(modules) {
-        super(modules);
+    constructor(fileName) {
+        super(readCSVfile(fileName));
+    }
+
+    static readCSVfile(fileName) {
+        csvArray = csv().fromFile(fileName);
+        let modules = [];
+        for (let i = 0; i < csvArray.length; i++) {
+            modules = modules.push(new Module(csvArray[i].moduleCode, csvArray[i].probability));
+        }
+        return modules;
     }
 }
 
