@@ -3,3 +3,4 @@ import {ModPool} from './modules.js';
 import { ModuleContainer } from './modules.js';
  
 var modPool = new ModPool("master.csv");
+console.log
