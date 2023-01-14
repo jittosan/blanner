@@ -1,6 +1,5 @@
-const fs = require("fs");
-const csv = require('csvtojson');
-const { Parser } = require('json2csv');
+import fs from "fs";
+import csv from 'csvtojson';
 import {Module} from './module.js';
 
 class ModuleContainer {
@@ -10,6 +9,7 @@ class ModuleContainer {
         } else {
             this.modules = modules;
         }
+        
     }
 
     //check if the module is in the list
@@ -50,11 +50,12 @@ class ModuleContainer {
 //database
 class ModPool extends ModuleContainer {
     constructor(fileName) {
-        super(readCSVfile(fileName));
+        super(ModPool.readCSVfile(fileName));
     }
 
     static readCSVfile(fileName) {
-        csvArray = csv().fromFile(fileName);
+        const csvArray = csv().fromFile(fileName);
+        console.log(csvArray);
         let modules = [];
         for (let i = 0; i < csvArray.length; i++) {
             modules = modules.push(new Module(csvArray[i].moduleCode, csvArray[i].probability));
@@ -71,5 +72,5 @@ class ModsTaken extends ModuleContainer {
 }
 
 export {ModPool}
-export {Modstaken}
+export {ModsTaken}
 export{ModuleContainer}
