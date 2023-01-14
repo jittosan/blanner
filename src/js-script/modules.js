@@ -54,7 +54,7 @@ class ModPool extends ModuleContainer {
     }
 
     static readCSVfile() {
-        var obj = tester.json;
+        .keys(tester.json);
         return obj;
     }
 }

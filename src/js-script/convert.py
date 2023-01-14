@@ -24,4 +24,3 @@ def csv_to_json(csvFilePath, jsonFilePath):
 csvFilePath = r'src\js-script\tester.csv'
 jsonFilePath = r'src\js-script\tester.json'
 csv_to_json(csvFilePath, jsonFilePath)
-print()
