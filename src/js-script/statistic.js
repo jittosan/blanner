@@ -2,7 +2,7 @@ import {ModPool} from './modules.js';
 import { ModuleContainer } from './modules.js';
 
 class Statistic {
-    constructor(majorMCsRequirement = 40, schoolTerm, modsTaken, modPool) {
+    constructor(majorMCsRequirement = 40, schoolTerm = "Year 1 Sem 1", modsTaken, modPool) {
         this.majorMCsRequirement = majorMCsRequirement;
         this.schoolTerm = schoolTerm;
         this.modsTaken = modsTaken;
@@ -11,6 +11,10 @@ class Statistic {
 
     getMCsLeft() {
         return this.majorMCsRequirement - this.modsTaken.length;
+    }
+
+    updateSchoolTerm(newShoolTerm) {
+        this.schoolTerm = newSchoolTerm;
     }
 
     // update both score and database
