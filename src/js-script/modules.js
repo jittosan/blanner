@@ -49,18 +49,13 @@ class ModuleContainer {
 
 //database
 class ModPool extends ModuleContainer {
-    constructor(fileName) {
-        super(ModPool.readCSVfile(fileName));
+    constructor() {
+        super();
     }
 
-    static readCSVfile(fileName) {
-        const csvArray = csv().fromFile(fileName);
-        console.log(csvArray);
-        let modules = [];
-        for (let i = 0; i < csvArray.length; i++) {
-            modules = modules.push(new Module(csvArray[i].moduleCode, csvArray[i].probability));
-        }
-        return modules;
+    static readCSVfile() {
+        var obj = tester.json;
+        return obj;
     }
 }
 
