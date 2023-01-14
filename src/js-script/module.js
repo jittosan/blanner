@@ -1,7 +1,7 @@
 class Module {
-    constructor(moduleCode) {
+    constructor(moduleCode, probability) {
         this.moduleCode = moduleCode;
-        this.probability = this.probability;
+        this.probability = probability;
     }
 
     getProbability() {
