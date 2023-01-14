@@ -1,0 +1,15 @@
+
+.content {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: min(100%, 100vh);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: max(20%, 25px) 1fr;
+
+    .textContent {
+        padding: 1ch 2ch;
+    }
+}
