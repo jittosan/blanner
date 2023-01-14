@@ -10,11 +10,11 @@ const Camera = () => {
 
 export default Camera
 
-const TestViewport = () => {
+const TestViewport = (props) => {
     return(
       <>
         {/* <OrbitControls enablePan={false} target={[0, 0.35, 0]} maxPolarAngle={0.15} /> */}
-        <OrbitControls target={[0, 0.35, 0]} />
+        <OrbitControls {...props} />
       </>
     )
   }

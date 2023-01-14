@@ -5,6 +5,11 @@ import Test from './elements/Test'
 import styles from './Scene.module.scss'
 import Camera, { TestViewport } from './scenario/Camera'
 import Background from './scenario/Background'
+import Book from './elements/Book'
+import Box from './elements/Box'
+import Shelf from './elements/Shelf'
+import LandingPage from './elements/LandingPage'
+import BookTest from './elements/BookTest'
 
 const Scene = () => {
   return (
@@ -14,8 +19,13 @@ const Scene = () => {
             <Camera />
             <Lights />
             <Background />
-            <Test position={[-2, 0, 0]} />
-            <TestViewport />
+            {/* <BookTest /> */}
+            <LandingPage position={[0, 10, 0]} />
+            {/* <Test position={[-2, 0, 0]} /> */}
+            <Book position={[2, 2, 0]} />
+            <Box position={[-2, 2, 0]} />
+            <Shelf position={[-2, 0, 1]} />
+            <TestViewport target={[0, 10, 0]} />
             <axesHelper />
             <boxHelper />
       </Canvas>

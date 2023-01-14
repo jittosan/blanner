@@ -17,7 +17,7 @@ const Book = (props) => {
 
     return (
         <>
-        <mesh {...props} ref={bookRef}>
+        <mesh {...props} ref={bookRef}  castShadow receiveShadow>
             <boxGeometry args={[dimensions.length, dimensions.height, dimensions.width]} />
             <meshStandardMaterial color={[1, 0, 0]} />\
             <Html occlude={'blending'} transform ref={bookRef} position={[0, 0, dimensions.width/2+meshOffset]}>

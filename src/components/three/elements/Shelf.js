@@ -17,7 +17,7 @@ const Shelf = (props) => {
 
     return (
         <>
-            <mesh {...props}>
+            <mesh {...props} castShadow receiveShadow>
                 <boxGeometry args={[dimensions.length, dimensions.height, dimensions.width]} />
                 <meshStandardMaterial color={[0, 0, 1]} />
                 <Html occlude={'blending'} transform ref={bookRef} position={[0, 0, dimensions.width/2+meshOffset]}>
