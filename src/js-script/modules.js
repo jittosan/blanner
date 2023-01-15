@@ -54,8 +54,14 @@ class ModPool extends ModuleContainer {
     }
 
     static readCSVfile() {
-        .keys(tester.json);
-        return obj;
+        let obj = fs.readFileSync('./tester.json');
+        let list = JSON.parse(obj);
+        let modules = [];
+        for (let i = 0; i < list.length; i++) {
+            modules.push(new Module(list[i].moduleCode, list[i].probability))
+        }
+        console.log(modules);
+        return modules;
     }
 }
 

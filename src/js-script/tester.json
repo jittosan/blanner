@@ -1,270 +1,270 @@
 [
     {
-        "\ufeffmoduleCode": "CS1010",
+        "moduleCode": "CS1010",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS1010E",
+        "moduleCode": "CS1010E",
         "probability": "0.697435897"
     },
     {
-        "\ufeffmoduleCode": "CS1010S",
+        "moduleCode": "CS1010S",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS1101S",
+        "moduleCode": "CS1101S",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS1231",
+        "moduleCode": "CS1231",
         "probability": "0.966666667"
     },
     {
-        "\ufeffmoduleCode": "CS1231S",
+        "moduleCode": "CS1231S",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS2030",
+        "moduleCode": "CS2030",
         "probability": "0.723577236"
     },
     {
-        "\ufeffmoduleCode": "CS2030S",
+        "moduleCode": "CS2030S",
         "probability": "0.777777778"
     },
     {
-        "\ufeffmoduleCode": "CS2040",
+        "moduleCode": "CS2040",
         "probability": "0.9"
     },
     {
-        "\ufeffmoduleCode": "CS2040C",
+        "moduleCode": "CS2040C",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS2040S",
+        "moduleCode": "CS2040S",
         "probability": "0.703703704"
     },
     {
-        "\ufeffmoduleCode": "CS2100",
+        "moduleCode": "CS2100",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS2102",
+        "moduleCode": "CS2102",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS2103",
+        "moduleCode": "CS2103",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS2103T",
+        "moduleCode": "CS2103T",
         "probability": "0.727272727"
     },
     {
-        "\ufeffmoduleCode": "CS2105",
+        "moduleCode": "CS2105",
         "probability": "0.777777778"
     },
     {
-        "\ufeffmoduleCode": "CS2106",
+        "moduleCode": "CS2106",
         "probability": "0.7"
     },
     {
-        "\ufeffmoduleCode": "CS2107",
+        "moduleCode": "CS2107",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS2108",
+        "moduleCode": "CS2108",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS2109S",
+        "moduleCode": "CS2109S",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS2113",
+        "moduleCode": "CS2113",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS2113T",
+        "moduleCode": "CS2113T",
         "probability": "0"
     },
     {
-        "\ufeffmoduleCode": "CS3203",
+        "moduleCode": "CS3203",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS3211",
+        "moduleCode": "CS3211",
         "probability": "0.861111111"
     },
     {
-        "\ufeffmoduleCode": "CS3213",
+        "moduleCode": "CS3213",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS3223",
+        "moduleCode": "CS3223",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS3230",
+        "moduleCode": "CS3230",
         "probability": "0.716666667"
     },
     {
-        "\ufeffmoduleCode": "CS3235",
+        "moduleCode": "CS3235",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS3236",
+        "moduleCode": "CS3236",
         "probability": "0.733333333"
     },
     {
-        "\ufeffmoduleCode": "CS3240",
+        "moduleCode": "CS3240",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS3242",
+        "moduleCode": "CS3242",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS3243",
+        "moduleCode": "CS3243",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS3244",
+        "moduleCode": "CS3244",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS3245",
+        "moduleCode": "CS3245",
         "probability": "0.733333333"
     },
     {
-        "\ufeffmoduleCode": "CS3247",
+        "moduleCode": "CS3247",
         "probability": "0.708333333"
     },
     {
-        "\ufeffmoduleCode": "CS3263",
+        "moduleCode": "CS3263",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS3264",
+        "moduleCode": "CS3264",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS4215",
+        "moduleCode": "CS4215",
         "probability": "0.888888889"
     },
     {
-        "\ufeffmoduleCode": "CS4218",
+        "moduleCode": "CS4218",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS4220",
+        "moduleCode": "CS4220",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS4221",
+        "moduleCode": "CS4221",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS4222",
+        "moduleCode": "CS4222",
         "probability": "0.75"
     },
     {
-        "\ufeffmoduleCode": "CS4225",
+        "moduleCode": "CS4225",
         "probability": "0.712962963"
     },
     {
-        "\ufeffmoduleCode": "CS4230",
+        "moduleCode": "CS4230",
         "probability": "0.8"
     },
     {
-        "\ufeffmoduleCode": "CS4231",
+        "moduleCode": "CS4231",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS4238",
+        "moduleCode": "CS4238",
         "probability": "0.521739131"
     },
     {
-        "\ufeffmoduleCode": "CS4239",
+        "moduleCode": "CS4239",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS4240",
+        "moduleCode": "CS4240",
         "probability": "0.761904762"
     },
     {
-        "\ufeffmoduleCode": "CS4242",
+        "moduleCode": "CS4242",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS4243",
+        "moduleCode": "CS4243",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS4244",
+        "moduleCode": "CS4244",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS4246",
+        "moduleCode": "CS4246",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS4247",
+        "moduleCode": "CS4247",
         "probability": "0.5"
     },
     {
-        "\ufeffmoduleCode": "CS4248",
+        "moduleCode": "CS4248",
         "probability": "0.695652174"
     },
     {
-        "\ufeffmoduleCode": "CS4249",
+        "moduleCode": "CS4249",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS4268",
+        "moduleCode": "CS4268",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS4269",
+        "moduleCode": "CS4269",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS4277",
+        "moduleCode": "CS4277",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS4278",
+        "moduleCode": "CS4278",
         "probability": "0.722222222"
     },
     {
-        "\ufeffmoduleCode": "CS5222",
+        "moduleCode": "CS5222",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS5230",
+        "moduleCode": "CS5230",
         "probability": "0.5"
     },
     {
-        "\ufeffmoduleCode": "CS5232",
+        "moduleCode": "CS5232",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS5250",
+        "moduleCode": "CS5250",
         "probability": "0.2"
     },
     {
-        "\ufeffmoduleCode": "CS5321",
+        "moduleCode": "CS5321",
         "probability": "1"
     },
     {
-        "\ufeffmoduleCode": "CS5331",
+        "moduleCode": "CS5331",
         "probability": "0.666666667"
     },
     {
-        "\ufeffmoduleCode": "CS5340",
+        "moduleCode": "CS5340",
         "probability": "0.571428572"
     },
     {
-        "\ufeffmoduleCode": "CS5346",
+        "moduleCode": "CS5346",
         "probability": "1"
     }
 ]
